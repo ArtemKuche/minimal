@@ -1,15 +1,35 @@
-<hero class="hero">
-<div class="container">
-<h1>MODERN AND MINIMALIST FURNITURE FOR YOU</h1>
-<ul class="hero-images">
-<li class="hero-item"><img src="../img/image.jpg" alt="chair"></li>
-<li class="hero-item"><img src="../img/image (1).jpg" alt="sofa"></li>
-<li class="hero-item"><img src="../img/image (2).jpg" alt="forniture"></li>
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">MODERN AND MINIMALIST FURNITURE FOR YOU</h1>
+    <ul class="hero-images">
+      <li class="hero-item">
+        <picture>
+  <source srcset=" ../img/chair1xtablet.png 1x ,../img/chair2xtablet.png 2x" media="(min-width: 730px)" />
+   <img src="../img/chair.jpg" alt="chair" />
+</picture>
+      </li>
+       <li class="hero-item">
+      <picture>
+        <source srcset="../img/bluesofa1xdesktop.png 1x, ../img/bluesofa2xdesktop.png 2x" media="(min-width: 1350px)">
+        <source srcset="../img/bluesofax1tablet.png 1x , ../img/bluesofax2tablet.png 2x" media="(min-width: 730px)">
+        <img src="../img/bluesofa.jpg" alt="sofa" />
 
-</ul>
-<p>Add a touch of elegance to your space with handcrafted furniture pieces</p>
-<button type="button">Subscribe</button>
+      </picture>
+      </li>
 
 
-</div>
-</hero>
+      <li class="hero-item">
+        <picture>
+          <source srcset="./img/furniture1xdesktop.png 1x, ./img/furniture2xdesktop.png 2x" media="(min-width: 1350px)">
+        <img class="hero-img" src="../img/furniture.jpg" alt="forniture" />
+        </picture>
+      </li>
+    </ul>
+    <div class="hero-box">
+      <p class="hero-text">
+        Add a touch of elegance to your space with handcrafted furniture pieces
+      </p>
+      <button class="hero-button" type="button">Subscribe</button>
+    </div>
+  </div>
+</section>

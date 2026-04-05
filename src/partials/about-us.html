@@ -10,21 +10,21 @@
         see how we bring them to life through our skilled craftsmanship.
       </p>
       <ul class="about-us-menu">
-        <li class="manu-item">
+        <li class="menu-item">
           <span class="menu-span">5+</span>
           <p class="menu-text">
             Years of experience creating handcrafted furniture
           </p>
         </li>
 
-        <li class="manu-item">
+        <li class="menu-item">
           <span class="menu-span">100%</span>
           <p class="menu-text">
             Sustainably sourced materials used in all of our furniture
           </p>
         </li>
 
-        <li class="manu-item">
+        <li class="menu-item">
           <span class="menu-span">500+</span>
           <p class="menu-text">
             Unique furniture designs crafted by our skilled artisans
@@ -32,8 +32,24 @@
         </li>
       </ul>
     </div>
-    <div class="img">
-      <img class="about-img" src="../img/sofa.jpg" alt="sofa" />
+    <div class="img-box">
+      <picture class="picture">
+        <source
+          srcset="
+            ./img/whitesofa1xdesktop.jpg 1x,
+            ./img/whitesofa2xdesktop.jpg 2x
+          "
+          media="(min-width: 1350px)"
+        />
+        <source
+          srcset="
+            ./img/whitesofa1xtablet.jpg 1x,
+            ./img/whitesofa2xtablet.jpg 2x
+          "
+          media="(min-width: 730px)"
+        />
+        <img class="about-img" src="../img/sofa.jpg" alt="sofa" />
+      </picture>
     </div>
   </div>
 </section>

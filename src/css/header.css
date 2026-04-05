@@ -1,0 +1,47 @@
+.header {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #f7faff;
+}
+
+.logo {
+  width: 100px;
+  height: 16px;
+  @media screen and (min-width: 730px) {
+    width: 127px;
+  }
+}
+
+.burger {
+  border: none;
+  background-color: transparent;
+  @media screen and (min-width:1350px){
+    display: none;
+  }
+}
+
+.header-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: none;
+  @media screen and (min-width:1350px) {
+  display: flex;
+column-gap:30px;
+padding: 8px;
+  }
+}
+
+.header-link{
+    @media screen and (min-width:1350px) {
+font-size: 18px;
+    }
+}
+
+.burger-icon {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+}
